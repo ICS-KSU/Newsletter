@@ -1,0 +1,16 @@
+{
+  "name": "ics-newsletter",
+  "version": "1.0.0",
+  "description": "Newsletters for ICS with MJML",
+  "main": "index.js",
+  "scripts": {
+    "build": "$(npm bin)/mjml -o dist templates/*",
+    "watch": "$(npm bin)/mjml -o dist -w templates/* & $(npm bin)/browser-sync -w dist dist"
+  },
+  "author": "Graham Leach-Krouse",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "mjml": "^4.12.0"
+  }
+}

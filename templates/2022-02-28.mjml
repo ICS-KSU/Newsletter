@@ -1,0 +1,146 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            .date { color:#A7A7A7 }
+            .title { font-size:50px; } 
+            @media (max-width:400px) { .title { font-size:36px;  } }
+            a { color:#512888 !important }
+            a:visited { color:black !important }
+        </mj-style>
+        <mj-breakpoint width="800px" />
+    </mj-head>
+    <mj-body width="900px" background-color="#D1D1D1">
+        <mj-section background-color="white">
+            <mj-column width="500px">
+                <mj-text line-height="1.2" font-family="Helvetica">
+                    <span class="date">FEBRUARY 4 2022</span>
+                    <h1 class="title">
+                        ICS NEWSLETTER
+                    </h1>
+                    <h1>New This Week</h1>
+                    <h4>Opportunities</h4>
+                    <p>
+                        <i>The <a href="https://www.cargillglobalscholars.com/participating-countries/us-faqs/">
+                        Cargill Global Scholars</a> program is currently accepting
+                        applications from first and second year students at
+                        Kansas State University</i>. The application deadline
+                        has been extended to Tuesday, March 15. Cargill is
+                        looking for students with leadership potential in
+                        a number of areas, including computer science. Selected
+                        students receive $2,500 per year for two years in
+                        scholarship support.
+                    </p>
+                    <p>
+                        <i>The <a href="https://www.k-state.edu/careercenter/about/news/2022/2022socialsvcsmu.html">
+                        Social Services career fair</a> is tomorrow, March
+                        1st, 5:30-7:30 PM!</i> The career fair is an
+                        opportunity for students to network and connect with
+                        employers that work in legal and law enforcement,
+                        international affairs, healthcare, social services, and
+                        the non-profit sector. It's a great opportunity to get
+                        a leg up on a future career in any of those areas. The
+                        event is both in-person at the Berney Family Welcome
+                        Center, and online via zoom—to get an invite, write to
+                        <a href="mailto:cnwurst"> cnwurst@ksu.edu</a>.
+                    </p>
+                    <h4>Updates</h4>
+                    <p>
+                        ICS got a new newsletter! We were getting a little
+                        tired of attaching fliers to your emails. So, with the 
+                        magic of <a href="https://mjml.io">mjml</a> 
+                        (there's never a bad time to learn a new XML dialect)
+                        we've created a new responsive email template! 
+                    </p>
+                    <p>
+                        We also got <a href="https://github.com/ICS-KSU">a
+                        new github organization</a>! If you want to take a peek
+                        behind the scenes, check it out. In the future, we want
+                        to use the ICS organization to host and advertise
+                        student projects. So if you'd like to join, and start
+                        using ICS to publically host some code you're proud of,
+                        please let us know.
+                    </p>
+                    <h4>Just For Fun</h4>
+                    <p>
+                        Ever wonder if you're living in a video game?
+                    </p>
+                    <p>
+                        According to philosopher C. Thi Nguyen, you definitely
+                        are—just not in the way you think. Nguyen gave
+                        a fascinating interview about the philosophy of gaming
+                        this week on the Ezra Klein Show, on that question
+                        and a lot more.
+                    </p>
+                    <p>
+                        Check it out here:
+
+                        <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS84MkZJMzVQeA/episode/Y2UwMGI0MTgtNWE5NC00ODFjLWFjNDUtYThkNmUzMGQxNmY1?sa=X&ved=0CAUQkfYCahcKEwjoi6yL7KD2AhUAAAAAHQAAAAAQAQ">A Philosophy of Games That's Really a Philosophy of Life</a>
+                    </p>
+
+                    <h1>General Annoucements</h1>
+                    <p>
+                        <i>Keep an eye out for these recurring events:</i>
+                    </p>
+                    <p>
+                        <b>Help Lab:</b> Get in-person help from a Computer Science
+                        instructor every Wednesday from 3:30-4:45 pm in Calvin Hall room 306.
+                    </p>
+                    <p>
+                        <b>Tea Time:</b> Have fun and hang out virtually with
+                        people in the CS department! Tea Time is a chance to
+                        catch up with what's going on in CS, meet alumnai, and
+                        get introduced to KSU's industry partners. The hours
+                        are Tuesdays at 3:30 in DUE 2168, and Fridays at
+                        10:30am on Zoom. Check the CS Discord Server for the
+                        Friday zoom link!
+                    </p>
+                    <p>
+                        <b>Tutoring:</b> Holtz Hall is offering tutoring
+                        remotely or face-to-face! They offer tutoring for
+                        a lot of classes that are part of ICS, like MATH 100
+                        and CC 110, 210, 310 and 315. Visit their 
+                        <a href="https://www.k-state.edu/aac/tutoring/">website</a>
+                        to see the classes that they offer tutoring for and how
+                        to schedule an appointment! You can also make
+                        appointments through the Navigate student app.
+                    </p>
+                </mj-text>
+            </mj-column>
+            <mj-column  background-color="#512888" width="300px">
+                <mj-spacer height="53px" />
+                <mj-text font-weight="bold" font-size="24px" font-family="Helvetica" color="white">
+                    Upcoming Events
+                </mj-text>
+                <mj-divider border-color="white" border-width="1px" />
+                <mj-text font-family="Helvetica" color="white">
+                    <b>February 28th:</b> Summer and Fall Pre-Enrollment Begins
+                </mj-text>
+                <mj-divider border-color="white" border-width="1px" />
+                <mj-text font-family="Helvetica" color="white">
+                    <b>March 1st:</b> Career Meet-Up for Social Services
+                </mj-text>
+                <mj-divider border-color="white" border-width="1px" />
+                <mj-text font-family="Helvetica" color="white">
+                    <b>March 14-18th:</b> Spring Break! 🎉
+                </mj-text>
+                <mj-divider border-color="white" border-width="1px" />
+                <mj-text font-family="Helvetica" color="white">
+                    <b>March 21st:</b> Summer and Fall Enrollment Begins
+                </mj-text>
+                <mj-divider border-color="white" border-width="1px" />
+                <mj-text font-family="Helvetica" color="white">
+                    <b>April 4th:</b> Last Day to Drop a Regular Session Course
+                </mj-text>
+                <mj-divider border-color="white" border-width="1px" />
+                <mj-text font-family="Helvetica" color="white">
+                    <b>May 9-13th:</b> Finals Week
+                </mj-text>
+                <mj-divider border-color="white" border-width="1px" />
+                <mj-text font-family="Helvetica" color="white">
+                    <b>May 14th:</b> Undergraduate Commencement
+                </mj-text>
+                <mj-spacer height="48px" />
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
