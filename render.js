@@ -3,11 +3,12 @@ import { fileURLToPath, pathToFileURL } from "url";
 import render from "preact-render-to-string";
 
 const templatesUrl = pathToFileURL("templates/")
+const resourcesUrl = pathToFileURL("resources/")
 const outputUrl = pathToFileURL("dist/")
 
-const files = await fs.readdir(fileURLToPath(templatesUrl));
+const templates = await fs.readdir(fileURLToPath(templatesUrl));
 
-for (const file of files) {
+for (const file of templates) {
 	if (/^_/.test(file)) continue;
 	if (!/\.js$/.test(file)) continue;
 	const outfile = new URL(file.replace(/\.js$/, ".html"), outputUrl);
@@ -17,4 +18,12 @@ for (const file of files) {
 	const { layout } = await import(new URL(pageLayout ?? "_layout.js", templatesUrl));
 	const output = render(layout({ title: pageTitle, body }));
 	await fs.writeFile(fileURLToPath(outfile), output);
+}
+
+const resources = await fs.readdir(fileURLToPath(resourcesUrl));
+
+for (const file of resources) {
+	const outfile = new URL(file, outputUrl);
+	const path = new URL(file, resourcesUrl);
+	await fs.copyFile(fileURLToPath(path), fileURLToPath(outfile));
 }
