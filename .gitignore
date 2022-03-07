@@ -142,4 +142,9 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+# Vim Sessions
+
+Session.vim
+Sessionx.vim
+
 # End of https://www.toptal.com/developers/gitignore/api/node
