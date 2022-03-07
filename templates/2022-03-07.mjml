@@ -6,8 +6,13 @@
             @media (max-width:400px) { .title { font-size:36px;  } }
             a { color:#512888 !important }
             a:visited { color:black !important }
+            .address-data a { 
+                text-decoration:none;
+                color:white !important
+            }
+            .address-data a:visited { color:white !important }
         </mj-style>
-        <mj-breakpoint width="800px" />
+        <mj-breakpoint width="805px" />
     </mj-head>
     <mj-body width="900px" background-color="#D1D1D1">
         <mj-section background-color="white">
@@ -131,10 +136,10 @@
                         <td style="padding: 5px 0 0 0">
                             <img width="60px" src="https://ics-ksu.github.io/Newsletter/white-duck.png"></img>
                         </td>
-                        <td>
+                        <td class="address-data">
                             Integrated Computer Science<br/>
-                            ksu.edu/ics<br/>
-                            gleachkr@ksu.edu
+                            <a href=https://ksu.edu/ics>ksu.edu/ics</a><br/>
+                            <a href="mailto:gleachkr@ksu.edu">gleachkr@ksu.edu</a>
                         </td>
                     </tr>
                 </mj-table>
