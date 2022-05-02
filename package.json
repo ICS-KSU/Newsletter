@@ -4,10 +4,10 @@
   "description": "Newsletters for ICS with MJML",
   "type": "module",
   "scripts": {
-    "build": "$(npm bin)/mjml -o dist templates/*.mjml && node render.js",
-    "watch": "$(npm bin)/mjml -o dist -w templates/*.mjml & $(npm bin)/browser-sync -w dist dist",
+    "build": "mjml -o dist templates/*.mjml && node render.js",
+    "watch": "npm run-script build && mjml -o dist -w templates/*.mjml & browser-sync -w dist dist",
     "deploy": "ORIGIN=\"$(git remote get-url origin)\" && rm -rf dist/.git && npm run build && cd dist && git init && git add . && git commit -m \"deploy $(date -I)\" && git remote add origin \"$ORIGIN\" && git push --force origin main:gh-pages",
-    "send": "npm run-script build && send-newsletter.sh"
+    "send": "npm run-script build && ./send-newsletter.sh"
   },
   "author": "Graham Leach-Krouse",
   "license": "Unlicense",

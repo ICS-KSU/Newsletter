@@ -1,0 +1,153 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            .date { color:#A7A7A7 }
+            .title { font-size:50px; } 
+            @media (max-width:400px) { .title { font-size:36px;  } }
+            a { color:#512888 !important }
+            a:visited { color:black !important }
+            .address-data a { 
+                text-decoration:none;
+                color:white !important
+            }
+            .address-data a:visited { color:white !important }
+        </mj-style>
+        <mj-breakpoint width="805px" />
+    </mj-head>
+    <mj-body width="900px" background-color="#D1D1D1">
+        <mj-section background-color="white">
+            <mj-column width="500px">
+                <mj-text line-height="1.2" font-family="Helvetica">
+                    <span class="date">APRIL 4 2022</span>
+                    <h1 class="title">
+                        ICS NEWSLETTER
+                    </h1>
+                    <p>
+                        Want to earn a 20$ Amazon gift card? We need four
+                        student volunteers to help with the <a href="https://www.k-state.edu/openhouse/">
+                        KSU All-University Open House</a>, this Saturday (April
+                        9th), from 9 AM to 3 PM. We'll be hanging out, talking
+                        about ICS, and with luck (🤞) building a little
+                        platformer in JavaScript
+                    </p>
+                    <p>
+                        Also, one more reminder! <i>enrollment for your Fall and Summer
+                        classes has now begun</i>. Good classes can fill up
+                        quickly, so if you haven't yet made a pre-enrollment
+                        appointment with Elli, <a href="https://k-state.navigate.eab.com/app/"> 
+                        click here</a> to schedule one now using the Navigate
+                        website. You can still choose between in-person or
+                        virtual appointments, so it should be easy to schedule
+                        a time!
+                    </p>
+                    <h3>Opportunities</h3>
+                    <p>
+                        <i>Hack KU</i>! But in a nice way. The Association of
+                        Computing Machinery at KU is hosting a 36-hour
+                        programming competition where teams develop creative
+                        projects around a provided theme. It will be hosted
+                        from April 8-10 in person. More information and
+                        registration can be found on <a href="https://hackku.org">hackku.org</a>. 
+                    </p>
+                    <p> <i>Win a $1,500 scholarship</i> with <a
+                        href="https://www.incrementors.com/scholarship/">Incrementors</a>.
+                        Incrementors is offering a $1,500 scholarship for
+                        students interesting digital marketing, web analytics,
+                        and growth hacking. The deadline to apply is May 30th,
+                        2022, but you should get started early: it's a two-part
+                        application, essay and online form. See their website
+                        for more details about this opportunity.
+                    </p>
+                        <i>Learn serverless development</i> this summer, at
+                        bitproject's free <a
+                            href="https://www.bitproject.org/serverless">serverless
+                        summercamp</a>. You'll have the opportunity to
+                        build some incredibly practical skills, working with
+                        real-world APIs from Twilio, Azure, Microsoft cognitive
+                        services, and more. This is really cool stuff, powerful
+                        magic—and did I mention that it's <i>free</i> for
+                        students?
+                    <h3>Just For Fun</h3>
+                    <p> The internet. It's essentially a system of tubes, right? </p>
+                    <p> 
+                        If you'd like a better explanation than that, check out the incredible 
+                        <a href="https://networksfromscratch.com">networksfromscratch.com</a>.
+                        It's a work in progress, but its a <em>truly</em>
+                        bottom-up assume-nothing exposition of how computer
+                        networks work.
+                    </p>
+                    <h3>In the News</h3>
+                    <p> 
+                        The European Union's member states agreed, this March
+                        24th (Thursday before last), to the Digital Markets
+                        Act, the most comprehesive and far-reaching market
+                        framework for regulating Big Tech and ensuring
+                        competitive digital markets, that's ever been
+                        instituted. This is going to have implications for the
+                        future of technology around the world for many years to
+                        come. If you want to learn more, <a href="https://www.wired.com/story/digital-markets-act-messaging/">
+                        here's a primer</a>.
+                    </p>
+                    <h1>General Annoucements</h1>
+                    <p>
+                        <i>Keep an eye out for these recurring events:</i>
+                    </p>
+                    <p>
+                        <b>Help Lab:</b> Get in-person help from a Computer Science
+                        instructor every Wednesday from 3:30-4:45 pm in Calvin Hall room 306.
+                    </p>
+                    <p>
+                        <b>Tea Time:</b> Have fun and hang out virtually with
+                        people in the CS department! Tea Time is a chance to
+                        catch up with what's going on in CS, meet alumni, and
+                        get introduced to KSU's industry partners. The hours
+                        are Tuesdays at 3:30 in DUE 2168, and Fridays at
+                        10:30am on <a href="https://ksu.zoom.us/j/796579973?pwd=NE54bVFMU3I3YlJ0VGdKMVMvVWRIQT09">
+                            Zoom</a>.
+                    </p>
+                    <p>
+                        <b>Tutoring:</b> Holtz Hall is offering tutoring
+                        remotely or face-to-face! They offer tutoring for
+                        a lot of classes that are part of ICS, like MATH 100
+                        and CC 110, 210, 310 and 315. Visit their 
+                        <a href="https://www.k-state.edu/aac/tutoring/">website</a>
+                        to see the classes that they offer tutoring for and how
+                        to schedule an appointment! You can also make
+                        appointments through the Navigate student app.
+                    </p>
+                </mj-text>
+            </mj-column>
+            <mj-column background-color="#512888" width="300px">
+                <mj-spacer height="53px" />
+                <mj-text font-weight="bold" font-size="24px" font-family="Helvetica" color="white">
+                    Upcoming Events
+                </mj-text>
+                <mj-divider border-color="white" border-width="1px" />
+                <mj-text font-family="Helvetica" color="white">
+                    <b>April 4th:</b> Last Day to Drop a Regular Session Course
+                </mj-text>
+                <mj-divider border-color="white" border-width="1px" />
+                <mj-text font-family="Helvetica" color="white">
+                    <b>May 9-13th:</b> Finals Week
+                </mj-text>
+                <mj-divider border-color="white" border-width="1px" />
+                <mj-text font-family="Helvetica" color="white">
+                    <b>May 14th:</b> Undergraduate Commencement
+                </mj-text>
+                <mj-spacer height="25px" />
+                <mj-table width="250px" line-height="15px" font-size="10px" font-family="Helvetica" color="white">
+                    <tr>
+                        <td style="padding: 5px 0 0 0">
+                            <img width="60px" src="https://ics-ksu.github.io/Newsletter/white-duck.png"></img>
+                        </td>
+                        <td class="address-data">
+                            Integrated Computer Science<br/>
+                            <a href="https://ksu.edu/ics>ksu.edu/ics">ksu.edu/ics</a><br/>
+                            <a href="mailto:gleachkr@ksu.edu">gleachkr@ksu.edu</a>
+                        </td>
+                    </tr>
+                </mj-table>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
