@@ -35,15 +35,15 @@
                        description: “A Vintage Thanksgiving Postcard”.
                    </p>
                    <p>
-                       Almost there! T-minus 13 days until finals. 🎉 If you need
-                       to figure out the time or date for your final exam, you
-                       can consult <a href="https://courses.k-state.edu/fall2022/information/xam.html"> the final exam matrix</a>.
-                       It's a beautiful data structure, but beware: it does not
-                       deserialize efficiently.
+                       Almost there! T-minus 13 days until finals. 🎉
                    </p>
-                   <p>
-                       This will be the last ICS newsletter until I see you
-                       again in the Spring. Until then, happy hacking.
+                   <p> If you need to figure out the time or date for your final exam, you
+                       can consult <a
+                           href="https://courses.k-state.edu/fall2022/information/xam.html">
+                           the final exam matrix</a>.
+                       It's a beautiful data structure, but beware: it does not
+                       deserialize efficiently. This will be the last ICS
+                       newsletter until we return in the Spring. Until then, happy hacking!
                    </p>
                    <h1>General Announcements</h1>
                    <p>
