@@ -39,6 +39,18 @@
                        class, and I hope you're all beginning to feel buckled
                        in for the semester.
                    </p>
+                   <p>
+                       Remember to come and join us on the KSU Computer Science
+                       discord server! To join, just visit the 
+                       <a href="https://discordbot.cs.ksu.edu">KSU Discord
+                       bot</a>. It will invite you to log in via K-State and
+                       your Discord account, and will then invite your discord
+                       account to the server and set your nickname to match the
+                       name you have at K-State. If you run into any trouble,
+                       send an email to Russ Feldhausen, at <a
+                       href="mailto:russfeld@ksu.edu">russfeld@ksu.edu</a>.
+                       Remember to say "Hi!" in the #ICS Channel!
+                   </p>
                    <h3>Opportunities</h3>
 
                    <p>
@@ -66,12 +78,12 @@
                        during the 80s and 90s ran on LISP?
                   </p>
                   <p>
-                       If you're fascinated
-                       by spaceflight, functional programming, or the idea of live-debugging
-                       a 100 million dollar production system that's 100
-                       million miles away, you might enjoy reading a narrative
-                       of the history, from an OG LISP guru. Check it out at <a
-                           href="https://flownet.com/gat/jpl-lisp.html">this link</a>
+                      If you're fascinated by spaceflight, functional
+                      programming, or the idea of live-debugging a 100
+                      million dollar production system that's 100 million
+                      miles away, you might enjoy reading a narrative of
+                      the history, from an OG LISP guru. Check it out at 
+                      <a href="https://flownet.com/gat/jpl-lisp.html">this link</a>
                    </p>
                    <h1>General Announcements</h1>
                    <p>
